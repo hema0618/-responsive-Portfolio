@@ -9,7 +9,7 @@
   * Prerequisites
   
   
-* Roadmap
+
   
 * License
   
@@ -31,8 +31,7 @@ The portfolio is built with
 
 You need PC, laptop or smartphone with Mozilla,Edge or Safari browser to visit the Portfolio webpage.
 
-# Roadmap
-Additional responsive ideas,color and interaction will be added in the future.
+
 
 # Contact
 * Hema - khemalatha507@gmail.com
