@@ -31,7 +31,10 @@ The portfolio is built with
 
 You need PC, laptop or smartphone with Mozilla,Edge or Safari browser to visit the Portfolio webpage.
 
+ 
 
+
+  
 
 # Contact
 * Hema - khemalatha507@gmail.com
