@@ -9,83 +9,93 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>My Portfolio</title>
+  <title>Hemalatha Komatineni</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
   <!--Start Navbar-->
-  <div id="Header">
-    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-      <div class="container">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a href="#" class="navbar-brand">
-          <h3>Hema</h3>
-        </a>
-        <div class="collapse navbar-collapse" id="navCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">About me</a></li>
-            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <nav>
-    <nav class="navbar navbar-light bg-dark">
-      <span class="navbar-brand mb-1 h1"></span>
-      <div class="topnav-centered">
-        <a href="#About">About me</a>
-      </div>
-      <span clas="navbar-brand mb-1 h1"></span>
-      <div class="topnav-centered">
-        <a href="#Portfolio">Portfolio</a>
-      </div>
-      <span class="navbar-brand mb-1 h1"></span>
-      <div class="topnav-centered">
-        <a href="#Contact">Contact</a>
-      </div>
-    </nav>
-    <!--End Nav-->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-white text-dark">
+    <a class="navbar-brand" href="index.html"><span class="openClose">{</span><span class="rest"> HK </span><span class="openClose">}</span></a>
+    <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-dark"></span>
+    </button>
+    <div class="collapse navbar-collapse navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-dark" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    
+    </div>
+  </nav>
 
-    <!--About me-->
-    <div id="About">
-      <div class="container mt-5">
+<!-- About Section -->
+<div class="container-fluid container-bio">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="about-me mt-4">
+        <h1>About Me</h1>
+        <div class="row ml-2 mr-0 mt-4 mb-4">
+          <div class="col-md-9">
+            <p class="bio text-justify text container-fluid">My name is Hema, and I am a Developer. 
+          <br>
+          <br>
+          Originally from India,Learning to be full stack developer through Rutgers bootcamp. I have
+          bachelors degree in computer science and still working my way up in coding. I am still young and
+          learning the industry. Always on a lookout for new and exciting design challenges.
 
-
-
-        <div class="row">
-          <div id="AboutData">
-            <div class="card bg-light">
-              <div class="card-title my-3 ">
-                <div class="media">
-                  <br>
-                  <img src="images/profile.jpg" width="250" height="300"
-                    class="img-fluid rounded-top mx-5 d-none d-lg-block">
-                  <div class="card-body">
-                    <h5 class ="card-titile">I'm Hema</h5>
-                    <p class="card-text"></p> Learning to be full stack developer through Rutgers bootcamp. I have
-                    bachelors degree in computer science and still working my way up in coding. I am still young and
-                    learning the industry. Always on a lookout for new and exciting design challenges.
-
-                  </div>
-                </div>
-              </div>
-            </div>
+          <br>
+          
+          </p>
+          </div>
+          <div class="col-md-3 d-flex justify-content-center img-fluid shadow-lg p-3 mb-5 bg-white rounded">
+            <a href="https://www.linkedin.com/in/komatineni-hemalatha/" target="_blank"><img src="images/profile.jpg" class="bio-photo" style="width: 330px; height: 300px;"></a>
           </div>
         </div>
+          
+        <h3>Background</h3>
+        <div class="row ml-2 mr-2 mt-4 mb-4">
+          <div class="col-md-12">
+            <p class="bio text-justify container-fluid">I have a Certificate in Full Stack Web Development from Rutgers University, and a bachelor's in computer science from JNTU India.I am experienced in full stack: frontend technologies, backend connections, and appropriate performance optimization. This includes JavaScript, HTML/CSS, Git, Github, Bootstrap, jQuery, APIs, AJAX, Node, Express servers, MySQL, Handlebars, Sequelize, Testing, Error Handling, Heroku, MongoDB, PWAs.
+
+            </p>
+          </div>
+        </div>
+
+        
+<!-- Sidecard -->
+    <div class="col-md-3">
+      <div class="card mt-2 border-0">
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <h5 class="card-title">Adding to your dev team?</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Perfect!</h6>
+            <p class="card-text text-left">I am currently looking for a new full time position in NYC or Jersey City.
+              <br>
+               ✨
+              <br>
+              Take a look at my <a href="https://github.com/hema0618" target="_blank">Github</a>,  
+              <a href="https://www.linkedin.com/in/komatineni-hemalatha" target="_blank">LinkedIn</a>, or 
+              <a href="contact.html">send me a message.</a>
+            </p>
+          </div>
       </div>
     </div>
-
-    <!--End About Me-->
-
+  </div>
+</div>
 
     <!--footer-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <div class="footer">
-      <p>This website is design by Hema 2020</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-bottom mt-4">
+      <div class="collapse navbar-collapse navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link py-0 text-dark" href="contact.html">© 2020 Hemalatha Komatineni</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
       <!--End of footer-->
       <div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>

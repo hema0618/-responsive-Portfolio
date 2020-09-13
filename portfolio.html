@@ -14,126 +14,138 @@
 
 <body data-spy="scroll" data-target=".navbar">
   <!--Start Navbar-->
-  <div id="Header">
-    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-white">
+    <a class="navbar-brand" href="index.html"><span class="openClose">{</span><span class="rest">HK</span><span
+        class="openClose">}</span></a>
+    <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-dark" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!--End Nav-->
 
 
-      <div class="container">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a href="#" class="navbar-brand">
-          <h3>Hema</h3>
-        </a>
-        <div class="collapse navbar-collapse" id="navCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">About me</a></li>
-            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+  <!--Portfolio-->
 
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <nav>
-    <nav class="navbar navbar-light bg-light">
-      <span class="navbar-brand mb-1 h1"></span>
-      <div class="topnav-centered">
-        <a href="#About">About me</a>
-      </div>
-      <span clas="navbar-brand mb-1 h1"></span>
-      <div class="topnav-centered">
-        <a href="portfolio.html">Portfolio</a>
-      </div>
-      <span class="navbar-brand mb-1 h1"></span>
-      <div class="topnav-centered">
-        <a href="#Contact">Contact</a>
-      </div>
-    </nav>
-    <!--End Nav-->
+  <div class="container-fluid container-portfolio-cards">
+    <div class="row">
+      <div class="col-lg-12 ml-2 mr-4 mb-4">
 
-
-    <!--Portfolio-->
-    <div id="Portfolio">
-      <div class="container mt-5">
-
-        <span class="bg-success text-white"> Portfolio</span>
-        <hr class="bg-success">
-        <div class="row">
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="images/day.PNG" width="285" height="150" alt="Placeholder" class="fluid">
-              <div class="card-body">
-                <h5 class="card-title">Day-planner</h5>
-                <p class="card-text">This day planner allows the user to enter and save a task in each hour block.
-                  The blocks are color-coded to let the user know which events have passed, are happening, and are
-                  coming up. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="images/pwd.PNG" width="285" height="230" alt="Placeholder" class="fluid">
-              <div class="card-body">
-                <h5 class="card-title">Password Generator</h5>
-                <p class="card-text">Random Password Generator will generate based on user-selected criteria..</p>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="images/read me.PNG" width="285" height="280" alt="Placeholder" class="fluid">
-              <div class="card-body">
-                <h5 class="card-title">Read me Generator</h5>
-                <p class="card-text">Generates dynamic readme's according to the user prompt</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="images/profile generator.PNG" width="285" height="280" alt="Placeholder" class="fluid">
-              <div class="card-body">
-                <h5 class="card-title">Profile Generator</h5>
-                <p class="card-text">This Node CLI builds a team-displaying HTML file for a user based on their input. The user inputs a team name, a how many members will be on their team and what their roles will be, and the program generates a static page organizing their information.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="images/weather.PNG" width="285" height="280" alt="Placeholder" class="fluid">
-              <div class="card-body">
-                <h5 class="card-title">Weather Dashboard</h5>
-                <p class="card-text">A simple weather dashboard application, that shows you the current weather and 5 day forecast of whatever city the user inputs.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mb-5">
-            <div class="card" style="width: 18rem;">
-              <img src="images/note taker.PNG" width="285" height="280" alt="Placeholder" class="fluid">
-              <div class="card-body">
-                <h5 class="card-title">Note Taker</h5>
-                <p class="card-text">An application that can be used to write, save, and delete notes. This application uses an express backend and save and retrieve note data from a file.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
       </div>
     </div>
+    <div class="row mt-4">
+      <div class="col-lg-3 d-flex justify-content-center">
+        <div class="card border-0" style="width: 18rem;">
+          <a href="https://github.com/hema0618/Day-planner" target="_blank"><img class="card-img-top"
+              alt="image of day planner project" src="images/day.PNG" style="width:288px; height:160px;"></a>
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="card-text">JavaScript | jQuery | HTML/CSS</p>
+          </div>
+        </div>
+      </div>
 
-    <!--Portfolio-->
-    <!--footer-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <div class="footer">
-      <p>This website is design by Hema 2020</p>
-      <!--End of footer-->
+      <div class="col-lg-3 d-flex justify-content-center">
+        <div class="card border-0" style="width: 18rem;">
+          <a href="https://github.com/hema0618/Profile-Generator" target="_blank"><img class="card-img-top"
+              alt="image of profile generator" src="images/profile generator.PNG" style="width:288px; height:160px;"></a>
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="card-text">MYSQL | Node.js| Express</p>
+          </div>
+        </div>
+      </div>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <div class="col-lg-3 d-flex justify-content-center">
+        <div class="card border-0" style="width: 18rem;">
+          <a href="https://github.com/hema0618/Read-Me-generator" target="_blank"><img class="card-img-top"
+              alt="image of Read-Me-generator" src="images/read me.PNG" style="width:288px; height:160px;"></a>
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="card-text">JavaScript</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 d-flex justify-content-center">
+        <div class="card border-0" style="width: 18rem;">
+          <a href="https://github.com/hema0618/weather-Dashboard" target="_blank"><img class="card-img-top"
+              alt="image of weather-Dashboard" src="images/weather.PNG" style="width:288px; height:160px;"></a>
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="card-text">HTML| CSS | JavaScript |</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="col-lg-3 d-flex justify-content-center">
+        <div class="card border-0" style="width: 18rem;">
+          <a href="https://github.com/hema0618/password-generator" target="_blank"><img class="card-img-top"
+              alt="image of password-generator" src="images/pwd.PNG" style="width:288px; height:160px;"></a>
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="card-text">HTML| CSS | JavaScript |</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 d-flex justify-content-center">
+        <div class="card border-0" style="width: 18rem;">
+          <a href="https://github.com/hema0618/Note-taker" target="_blank"><img class="card-img-top"
+              alt="image of Note-taker" src="images/note taker.PNG" style="width:288px; height:160px;"></a>
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="card-text">HTML| CSS | JavaScript |</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 d-flex justify-content-center">
+        <div class="card border-0" style="width: 18rem;">
+          <a href="https://github.com/hema0618/Books-by-You" target="_blank"><img class="card-img-top"
+              alt="image of Books-by-You" src="images/books.PNG" style="width:288px; height:160px;"></a>
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="card-text">HTML| CSS | JavaScript |Sequelize |</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-3 d-flex justify-content-center">
+        <div class="card border-0" style="width: 18rem;">
+          <a href="https://github.com/hema0618/Fitness-Tracker" target="_blank"><img class="card-img-top"
+              alt="image of Fitness-Tracker" src="images/fitness.PNG" style="width:288px; height:160px;"></a>
+          <div class="card-body shadow-lg p-3 mb-5 bg-white rounded">
+            <p class="card-text">HTML| CSS | JavaScript | MongoDB |</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!--Portfolio-->
+      <!--footer-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-bottom">
+        <div class="collapse navbar-collapse navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link py-0 text-dark" href="contact.html">© 2020 Hemalatha Komatineni</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        <!--End of footer-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
